@@ -188,7 +188,7 @@ const Projects = () => {
                       alt
                     />
                     <div
-                      className="absolute inset-0 transition-all duration-300 bg-center bg-no-repeat bg-cover main"
+                      className="absolute inset-0 transition-all duration-300 bg-center bg-no-repeat bg-cover main h-full"
                       data-img-url="https://i.imgur.com/NJnABde.png"
                     />
                   </div>
@@ -197,12 +197,12 @@ const Projects = () => {
                     Mega mart
                     </span>
                     <h3 className="title text-[32px] tracking-[-1px] font-medium">
-                      <span className="relative inline-block">E-commerce <span>{"(DOM)"}</span></span>
+                      <span className="relative inline-block">E-commerce <span>{"(API-Integration)"}</span></span>
                     </h3>
                   </div>
                   <a
                     className="orido_tm_full_link absolute inset-0 z-[5] zoom"
-                    href="https://app.netlify.com/sites/my-mega-mart/overview" target="_blank"
+                    href="https://my-mega-mart.netlify.app/" target="_blank"
                   />
                 </div>
               </SwiperSlide>

@@ -27,7 +27,7 @@ const Home = ({ dark }) => {
             </div>
             <div className="flex items-center buttons">
               <div className="orido_tm_boxed_button">
-                <a className="anchor" href="#contact">
+                <a className="anchor" href="#contact-me">
                   Say Hello{" "}
                   <img className="svg" src="assets/img/svg/send.svg" alt />
                 </a>

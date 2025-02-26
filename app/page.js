@@ -1,6 +1,7 @@
 import About from "@/components/About";
 // import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
+import ContactMe from "@/components/ContactMe";
 import Counter from "@/components/Counter";
 import ExpertAreas from "@/components/ExpertAreas";
 // import Feedback from "@/components/Feedback";
@@ -47,6 +48,7 @@ const Index = () => {
       <Partners />
       {/* /PARTNERS */}
       {/* CONTACT */}
+      <ContactMe/>
       <Contact />
       {/* /CONTACT */}
     </OridoLayout>
