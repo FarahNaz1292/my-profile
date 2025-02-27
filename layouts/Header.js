@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Header = ({ dark }) => {
   return (
     <div className="orido_tm_header fixed top-0 left-0 right-0 z-[10] py-[25px] px-[150px] transition-all duration-300 middle:hidden">
@@ -33,7 +35,7 @@ const Header = ({ dark }) => {
               </a>
             </li> */}
             <li>
-              <a href="#contact">Contact</a>
+              <Link href="#contact">Contact</Link>
             </li>
           </ul>
           <span className="ccc" />

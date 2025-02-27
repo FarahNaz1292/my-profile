@@ -1,6 +1,7 @@
 'use client'
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "sonner";
 
 const ContactMe = () => {
   const [loading, setLoading] = useState(false);
@@ -16,19 +17,21 @@ const ContactMe = () => {
         () => {
           console.log("Email sent successfully!");
           form.current.reset(); // Clears the form after successful submission
+          toast.success("Message sent successfully!")
           setLoading(false);
         },
         (error) => {
           console.error("Email failed to send:", error.text);
+
           setLoading(false);
         }
       );
   };
 
   return (
-    <section className="orido_tm_section bg-white dark:bg-gray-900 max-w-6xl mx-auto mb-[110px]">
+    <section className="orido_tm_section bg-white dark:bg-gray-900 max-w-6xl mx-auto mb-[110px]" id="contact">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white" id="contact-me">
+        <h2 className=" anchor mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white" >
           Contact Me
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">

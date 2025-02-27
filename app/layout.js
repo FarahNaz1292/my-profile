@@ -7,6 +7,7 @@ import "@css/plugins.css";
 import { DM_Sans, Inter, Kaushan_Script, Oswald } from "next/font/google";
 import "./globals.css";
 import State from "/context/context";
+import { Toaster } from "sonner";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -45,6 +46,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={fontFamily}>
         <PreLoader />
+        <Toaster />
         <State>{children}</State>
       </body>
     </html>
