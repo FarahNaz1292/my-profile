@@ -1,1 +1,0 @@
-"use strict";exports.id=24,exports.ids=[24],exports.modules={2024:(e,t,o)=>{o.r(t),o.d(t,{$$typeof:()=>i,__esModule:()=>a,default:()=>p});var r=o(5153);let s=(0,r.createProxy)(String.raw`/Users/farahnaz/Desktop/portfolio/client-portfolio-site/components/Projects.js`),{__esModule:a,$$typeof:i}=s,l=s.default,p=l}};
