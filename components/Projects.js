@@ -21,9 +21,9 @@ const Projects = () => {
           <div className="float-left w-full orido_tm_main_title">
             <h3 className="tracking-[-2px] text-[56px] font-bold">
               <span className="relative">
-                Look at my
+                My Hobbies{" "}
                 <br />
-                recent projects
+               "creating projects"
               </span>
             </h3>
           </div>
@@ -143,7 +143,7 @@ const Projects = () => {
                   </div>
                   <a
                     className="orido_tm_full_link absolute inset-0 z-[5] details_link"
-                    href="https://recruitingapp.netlify.app" target="_blank"
+                    href="https://donationprojectfarah.netlify.app" target="_blank"
                     // onClick={(e) => {
                     //   e.preventDefault();
                     //   modalToggle(true);

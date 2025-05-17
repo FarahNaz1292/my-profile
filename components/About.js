@@ -41,12 +41,11 @@ const About = () => {
               </p>
             </div>
             <div className="flex items-center float-left w-full short">
-              <div className="orido_tm_boxed_button">
-                <a href="assets/img/cv/FarahNaz.docx" download>
-                  Download CV{" "}
-                  <img className="svg" src="assets/img/svg/paper.svg" alt />
-                </a>
-              </div>
+               <div className="orido_tm_boxed_button">
+          <a href="assets/img/cv/farahnaz.pdf" download>
+            <p className="flex">Download Resume<img className="svg" src="assets/img/svg/paper.svg" alt /></p>
+          </a>
+        </div>
               <img
                 className="max-w-[200px] max-h-[200px] ml-[50px]"
                 src="assets/img/signature.png"
